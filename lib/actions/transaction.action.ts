@@ -23,7 +23,7 @@ export async function checkoutCredits(transaction:CheckoutTransactionParams){
 
             {
                 price_data :{
-                    currency : 'usd',
+                    currency : 'inr',
                     product_data :{
                         name : transaction.plan
                     },
