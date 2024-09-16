@@ -1,6 +1,6 @@
 import { auth } from "@clerk/nextjs";
-import Image from "next/image";
 import { redirect } from "next/navigation";
+import Image from "next/image";
 
 import { Collection } from "@/components/shared/Collection";
 import Header from "@/components/shared/Header";
